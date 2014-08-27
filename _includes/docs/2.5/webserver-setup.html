@@ -105,7 +105,7 @@ jetty.ssl.port=8443
 </pre>
 
 <p>Execute <code>bin/azkaban-web-start.sh</code> to start AzkabanWebServer.</p> 
-The server by default runs at port 8443. One more thing to note is that because Azkaban server uses SSL, it's important to put https:// ahead of your URL when acessing the web interface. Also, the default user name and password for the web interface as listed in conf/azkaban-users.xml file is azkaban and azkaban respectively.
+The server by default runs at port 8443. One more thing to note is that because Azkaban server uses SSL, it's important to put https:// ahead of your URL when acessing the web interface. Also, the default user name and password for the web interface as listed in conf/azkaban-users.xml file is azkaban and azkaban respectively. You also need to create a logs directory in the working directory where you launch the start script for because the start script expects it to be there to store the logs in.
 <p>To shutdown the AzkabanWebServer, run <code>bin/azkaban-web-shutdown.sh</code>.</p>
 
 <p>You can test access by accessing the web server through a browser.</p>
