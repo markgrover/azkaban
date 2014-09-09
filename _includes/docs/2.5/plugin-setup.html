@@ -48,7 +48,7 @@ Azkaban is designed to make non-core functionalities plugin-based, so that
 
 <p>Depending on if the hadoop installation is turned on:</p>
 <ol>
-  <li>If the Hadoop installation does not have security turned on, the default config is good enough. One can simply restart <code>AzkabanWebServer</code> and start using the HDFS viewer.</li> However, for the HDFS Viewer to function you need to set HADOOP_HOME and HIVE_HOME variables before starting the web server.
+  <li>If the Hadoop installation does not have security turned on, the default config is good enough. One can simply restart <code>AzkabanWebServer</code> and start using the HDFS viewer.</li> However, for the HDFS Viewer to function you need to set HADOOP_HOME, HADOOP_CONF_DIR and HIVE_HOME variables before starting the web server.
 	<li>If the Hadoop installation does have security turned on, the following configs should be set differently than their default values, in plugin's config file:</li>
 </ol>
 
